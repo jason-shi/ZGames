@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winresrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日语 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winresrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日语 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_APPMENU MENU 
+BEGIN
+    POPUP "破解"
+    BEGIN
+        MENUITEM "打开(O)",                       ID_APP_OPEN
+        MENUITEM "运行(R)",                       ID_APP_RUN
+        MENUITEM "重算",                          ID_APP_AGAIN
+        MENUITEM "摆棋(A)",                       ID_APP_ARRANGE
+        MENUITEM "撤消(U)",                       ID_APP_UNDO
+        MENUITEM "保存(S)",                       ID_APP_SAVE
+        MENUITEM "着法",                          ID_APP_MANUAL
+        MENUITEM "批处理",                         ID_APP_BATCH
+        MENUITEM "退出(X)",                       ID_APP_EXIT
+    END
+    POPUP "交流"
+    BEGIN
+        MENUITEM "复制(Y)",                       ID_APP_COPY
+        MENUITEM "粘贴(T)",                       ID_APP_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "快存1(1)",                      ID_ACCEL1001
+        MENUITEM "快存2(2)",                      ID_ACCEL1002
+        MENUITEM "快存3(3)",                      ID_ACCEL1003
+        MENUITEM "快存4(4)",                      ID_ACCEL1004
+        MENUITEM SEPARATOR
+        MENUITEM "快取1(Ctrl+1)",                 ID_ACCEL1005
+        MENUITEM "快取2(Ctrl+2)",                 ID_ACCEL1006
+        MENUITEM "快取3(Ctrl+3)",                 ID_ACCEL1007
+        MENUITEM "快取4(Ctrl+4)",                 ID_ACCEL1008
+    END
+    POPUP "创作"
+    BEGIN
+        MENUITEM "定形局",                         ID_APP_PATTERN
+        MENUITEM SEPARATOR
+        MENUITEM "小倒推(F)",                      ID_APP_TRACE
+        MENUITEM "限子小倒推",                       ID_APP_LIMITARYTRACE
+        MENUITEM "  浏览(N)",                     ID_APP_NEXT
+        MENUITEM "  回览(L)",                     ID_APP_LAST
+        MENUITEM SEPARATOR
+        MENUITEM "大倒推",                         ID_APP_SOURCE
+        MENUITEM "限子大倒推",                       ID_APP_LIMITARYSOURCE
+    END
+    POPUP "关于"
+    BEGIN
+        MENUITEM "说明",                          ID_APP_EXPLAINATION
+#ifdef _DEBUG
+        MENUITEM "注册",                          ID_APP_REGISTER
+#endif
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDC_APPICON             ICON                    "Sample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,0
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403b6"
+        BEGIN
+            VALUE "Comments", "象棋残局"
+            VALUE "FileDescription", "Win32 Application"
+            VALUE "FileVersion", "version 8.0"
+            VALUE "InternalName", "中国象棋连将残局创作破解"
+            VALUE "OriginalFilename", "WChess.exe"
+            VALUE "ProductName", "中国象棋连将残局创作破解"
+            VALUE "ProductVersion", "version 8.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 950
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_APPACCEL ACCELERATORS 
+BEGIN
+    "1",            ID_ACCEL1001,           VIRTKEY, NOINVERT
+    "2",            ID_ACCEL1002,           VIRTKEY, NOINVERT
+    "3",            ID_ACCEL1003,           VIRTKEY, NOINVERT
+    "4",            ID_ACCEL1004,           VIRTKEY, NOINVERT
+    "1",            ID_ACCEL1005,           VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_ACCEL1006,           VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_ACCEL1007,           VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_ACCEL1008,           VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_APP_COPY,            VIRTKEY, NOINVERT
+    "A",            ID_APP_ARRANGE,         VIRTKEY, NOINVERT
+    "X",            ID_APP_EXIT,            VIRTKEY, NOINVERT
+    "L",            ID_APP_LAST,            VIRTKEY, NOINVERT
+    "N",            ID_APP_NEXT,            VIRTKEY, NOINVERT
+    "O",            ID_APP_OPEN,            VIRTKEY, NOINVERT
+    "T",            ID_APP_PASTE,           VIRTKEY, NOINVERT
+    "R",            ID_APP_RUN,             VIRTKEY, NOINVERT
+    "S",            ID_APP_SAVE,            VIRTKEY, NOINVERT
+    "F",            ID_APP_TRACE,           VIRTKEY, NOINVERT
+    "U",            ID_APP_UNDO,            VIRTKEY, NOINVERT
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
