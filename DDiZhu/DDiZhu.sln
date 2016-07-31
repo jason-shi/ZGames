@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DDiZhu", "DDiZhu.vcproj", "{318BD647-9485-4146-BE6D-76DEDF922A62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DDiZhuAI", "..\..\Lib4Z\DDiZhuAI\DDiZhuAI.vcproj", "{2D677979-DDA9-4ECB-B530-3E335219BE81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{318BD647-9485-4146-BE6D-76DEDF922A62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{318BD647-9485-4146-BE6D-76DEDF922A62}.Debug|Win32.Build.0 = Debug|Win32
+		{318BD647-9485-4146-BE6D-76DEDF922A62}.Release|Win32.ActiveCfg = Release|Win32
+		{318BD647-9485-4146-BE6D-76DEDF922A62}.Release|Win32.Build.0 = Release|Win32
+		{2D677979-DDA9-4ECB-B530-3E335219BE81}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D677979-DDA9-4ECB-B530-3E335219BE81}.Debug|Win32.Build.0 = Debug|Win32
+		{2D677979-DDA9-4ECB-B530-3E335219BE81}.Release|Win32.ActiveCfg = Release|Win32
+		{2D677979-DDA9-4ECB-B530-3E335219BE81}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
